@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestProjectCRUD</string>
+    <string name="lbl_save_notes">Save Notes</string>
+    <string name="lbl_read_notes">Read Notes</string>
+    <string name="lbl_delete_notes">Delete Notes</string>
+    <string name="lbl_update_notes">Update Notes</string>
+    <string name="title_note"> update / delete by title</string>
+</resources>
