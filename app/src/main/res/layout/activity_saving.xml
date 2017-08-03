@@ -8,12 +8,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.testprojectcrud.SavingActivity">
 
-    <TextView
-        android:id="@+id/tv_SaveActivId"
+    <EditText
+        android:id="@+id/ed_SaveActivId"
+        android:text="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ed_SaveActivIdDetails"
+        android:text="Enter Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btn_saveActivId"
+        android:text="@string/lbl_save"
+        android:onClick="saveRecord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

@@ -8,6 +8,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.testprojectcrud.DeleteActivity">
     <TextView
+        android:id="@+id/tv_updatActivId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
         android:id="@+id/tv_Delete"
         android:text="@string/title_note"
         android:layout_width="match_parent"

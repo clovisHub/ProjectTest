@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -8,17 +9,18 @@
     tools:context="com.example.user.testprojectcrud.UpdateActivity">
 
     <TextView
-        android:id="@+id/tv_updatActivId"
-        android:text=""
+        android:id="@+id/tv_upActId"
+        android:text="@string/no_record"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-        android:id="@+id/Ed_updateActivId"
+        android:id="@+id/Ed_upActivId"
         android:text="@string/title_note"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/btn_updateActivId"
+        android:id="@+id/btn_upActivId"
+        android:text="@string/lbl_update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
